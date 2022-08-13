@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.header {
+    width: 100%;
+    height: 500px;
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 70%;
+    height: 90%;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+}
+
+.links {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+
+
+.landing {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.headerText {
+    width: 50%;
+}
+
+.picPlaceholder {
+    width: 400px;
+    height: 200px;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    display: block;
+    background-color: #3882f6;
+    color: white;
+    margin-top: 10px;
+    padding: 5px;
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+}
+
+.randomInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    height: 200px;
+}
+
+.boxes {
+    display: flex;
+    height: 100%;
+    margin-top: 20px;
+    justify-content: space-evenly;
+}
+
+.box {
+    flex: 0 1 150px;
+}
+
+.area {
+    width: 90%;
+    height: 90%;
+    border: 2px solid blue;
+    border-radius: 10px;
+}
